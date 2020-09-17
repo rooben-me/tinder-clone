@@ -10,7 +10,6 @@ function Header({ backButton }) {
   const histroy = useHistory();
 
   return (
-    // BEM
     <div className="header">
       {backButton ? (
         <IconButton onClick={() => histroy.replace(backButton)}>
