@@ -13,7 +13,7 @@ Tinder clone is a Simplified clone version of the Tinder app powered by React JS
 
 # DEMO
 
-![demo-gif]: (https://github.com/rooben-me/tinder-clone/Gifs/demo.gif)
+![demo-gif]: (https://github.com/rooben-me/tinder-clone/blob/master/Gifs/demo.gif)
 
 ### Live Demo
 
