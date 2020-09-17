@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25fc206b59be2db7912d00d1908c5053",
+    "revision": "e683ff8ef926518aee11fdaa6ee9a82d",
     "url": "/tinder-clone/index.html"
   },
   {
-    "revision": "f72736c45ecc46ab1b7e",
-    "url": "/tinder-clone/static/css/main.4b7a60c4.chunk.css"
+    "revision": "ed4e53654e0da6850417",
+    "url": "/tinder-clone/static/css/main.5a37c475.chunk.css"
   },
   {
     "revision": "f65b2f5c68a078144ba8",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tinder-clone/static/js/2.b22e1b6e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f72736c45ecc46ab1b7e",
-    "url": "/tinder-clone/static/js/main.bd5ae68f.chunk.js"
+    "revision": "ed4e53654e0da6850417",
+    "url": "/tinder-clone/static/js/main.8bd69c2b.chunk.js"
   },
   {
     "revision": "de86c0115f6746d23e21",
