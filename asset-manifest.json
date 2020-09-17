@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tinder-clone/static/css/main.5a37c475.chunk.css",
-    "main.js": "/tinder-clone/static/js/main.efed7123.chunk.js",
-    "main.js.map": "/tinder-clone/static/js/main.efed7123.chunk.js.map",
+    "main.js": "/tinder-clone/static/js/main.3730ebcf.chunk.js",
+    "main.js.map": "/tinder-clone/static/js/main.3730ebcf.chunk.js.map",
     "runtime-main.js": "/tinder-clone/static/js/runtime-main.acd27e62.js",
     "runtime-main.js.map": "/tinder-clone/static/js/runtime-main.acd27e62.js.map",
     "static/js/2.b22e1b6e.chunk.js": "/tinder-clone/static/js/2.b22e1b6e.chunk.js",
     "static/js/2.b22e1b6e.chunk.js.map": "/tinder-clone/static/js/2.b22e1b6e.chunk.js.map",
     "index.html": "/tinder-clone/index.html",
-    "precache-manifest.ed334c855ff94243dba96842899a7453.js": "/tinder-clone/precache-manifest.ed334c855ff94243dba96842899a7453.js",
+    "precache-manifest.70c442ee03350f3a90b8876a9e44fdd0.js": "/tinder-clone/precache-manifest.70c442ee03350f3a90b8876a9e44fdd0.js",
     "service-worker.js": "/tinder-clone/service-worker.js",
     "static/css/main.5a37c475.chunk.css.map": "/tinder-clone/static/css/main.5a37c475.chunk.css.map",
     "static/js/2.b22e1b6e.chunk.js.LICENSE.txt": "/tinder-clone/static/js/2.b22e1b6e.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.acd27e62.js",
     "static/js/2.b22e1b6e.chunk.js",
     "static/css/main.5a37c475.chunk.css",
-    "static/js/main.efed7123.chunk.js"
+    "static/js/main.3730ebcf.chunk.js"
   ]
 }
