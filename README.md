@@ -7,7 +7,7 @@ Tinder clone is a Simplified clone version of the Tinder app powered by React JS
 - made with love
 - and ofcourse some Magic ✔
 
-### It is not well optimized for Desktop view😓😓
+### It is not optimized for Desktop view😓😓
 
 ### Works nicely with Mobile and Tablet view
 
