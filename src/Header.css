@@ -13,5 +13,6 @@
 }
 
 .header__icon {
+  outline: none !important;
   padding: 20px;
 }

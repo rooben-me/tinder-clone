@@ -10,18 +10,13 @@ function ChatScreen() {
       name: "mark",
       image:
         "https://dfjc3etzov2zz.cloudfront.net/wp-content/uploads/2018/04/Mark-Zuckerberg-Forbes.jpg",
-      message: "whats up ",
+      message: "Yo whats up ",
     },
     {
       name: "mark",
       image:
         "https://dfjc3etzov2zz.cloudfront.net/wp-content/uploads/2018/04/Mark-Zuckerberg-Forbes.jpg",
-      message: "How it going",
-    },
-    {
-      name: "",
-      image: "",
-      message: "Hi how are you mark",
+      message: "How are you...",
     },
   ]);
 

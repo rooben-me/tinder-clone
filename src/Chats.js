@@ -7,7 +7,7 @@ function Chats() {
     <div className="chats">
       <Chat
         name="mark"
-        message="Yo Whats up!"
+        message="How are you..."
         timestamp="12 minutes ago"
         profilePic="https://dfjc3etzov2zz.cloudfront.net/wp-content/uploads/2018/04/Mark-Zuckerberg-Forbes.jpg"
       />

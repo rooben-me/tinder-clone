@@ -7,9 +7,9 @@
 
 .chatScreen__text {
   margin-left: 10px;
-  background-color: lightgray;
+  background-color: #e5e5e5;
   padding: 15px;
-  border-radius: 20px;
+  border-radius: 0px 20px 0px 20px;
 }
 
 .chatScreen__timeStamp {
@@ -21,8 +21,8 @@
 .chatScreen__textUser {
   margin-left: auto;
   padding: 20px;
-  border-radius: 20px;
-  background-color: #29b3cd;
+  border-radius: 0px 20px 0px 20px;
+  background-color: #fe3d71;
   color: white;
 }
 
@@ -37,6 +37,7 @@
 
 .chatScreen__inputField {
   flex: 1;
+  outline: none;
   padding: 10px;
   border: none;
 }
