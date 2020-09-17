@@ -1,0 +1,81 @@
+[debug] [2020-09-17T07:24:30.386Z] ----------------------------------------------------------------------
+[debug] [2020-09-17T07:24:30.389Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ruban\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-09-17T07:24:30.390Z] CLI Version:   8.10.0
+[debug] [2020-09-17T07:24:30.390Z] Platform:      win32
+[debug] [2020-09-17T07:24:30.390Z] Node Version:  v14.10.1
+[debug] [2020-09-17T07:24:30.391Z] Time:          Thu Sep 17 2020 12:54:30 GMT+0530 (India Standard Time)
+[debug] [2020-09-17T07:24:30.391Z] ----------------------------------------------------------------------
+[debug] [2020-09-17T07:24:30.392Z] 
+[debug] [2020-09-17T07:24:30.402Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-17T07:24:30.402Z] > authorizing via signed-in user
+[debug] [2020-09-17T07:24:30.403Z] [iam] checking project tinder-clone-1bf69 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-09-17T07:24:30.408Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/tinder-clone-1bf69:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-09-17T07:24:31.876Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 17 Sep 2020 07:24:32 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1192","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-09-17T07:24:31.879Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/tinder-clone-1bf69  
+ 
+[debug] [2020-09-17T07:24:32.389Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 17 Sep 2020 07:24:32 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'tinder-clone-1bf69'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-09-17T07:24:32.398Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/tinder-clone-1bf69/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2020-09-17T07:24:53.718Z] Error: connect ETIMEDOUT 216.58.200.138:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 216.58.200.138:443
+[debug] [2020-09-17T07:24:59.923Z] ----------------------------------------------------------------------
+[debug] [2020-09-17T07:24:59.926Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ruban\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-09-17T07:24:59.927Z] CLI Version:   8.10.0
+[debug] [2020-09-17T07:24:59.927Z] Platform:      win32
+[debug] [2020-09-17T07:24:59.927Z] Node Version:  v14.10.1
+[debug] [2020-09-17T07:24:59.928Z] Time:          Thu Sep 17 2020 12:54:59 GMT+0530 (India Standard Time)
+[debug] [2020-09-17T07:24:59.929Z] ----------------------------------------------------------------------
+[debug] [2020-09-17T07:24:59.929Z] 
+[debug] [2020-09-17T07:24:59.940Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-17T07:24:59.941Z] > authorizing via signed-in user
+[debug] [2020-09-17T07:24:59.942Z] [iam] checking project tinder-clone-1bf69 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-09-17T07:24:59.949Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/tinder-clone-1bf69:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-09-17T07:25:01.276Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 17 Sep 2020 07:25:01 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1139","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-09-17T07:25:01.278Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/tinder-clone-1bf69  
+ 
+[debug] [2020-09-17T07:25:01.680Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 17 Sep 2020 07:25:02 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'tinder-clone-1bf69'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-09-17T07:25:01.694Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/tinder-clone-1bf69/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2020-09-17T07:25:22.895Z] Error: connect ETIMEDOUT 216.58.200.138:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 216.58.200.138:443
+[debug] [2020-09-17T07:26:47.160Z] ----------------------------------------------------------------------
+[debug] [2020-09-17T07:26:47.163Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ruban\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-09-17T07:26:47.164Z] CLI Version:   8.10.0
+[debug] [2020-09-17T07:26:47.164Z] Platform:      win32
+[debug] [2020-09-17T07:26:47.164Z] Node Version:  v14.10.1
+[debug] [2020-09-17T07:26:47.165Z] Time:          Thu Sep 17 2020 12:56:47 GMT+0530 (India Standard Time)
+[debug] [2020-09-17T07:26:47.165Z] ----------------------------------------------------------------------
+[debug] [2020-09-17T07:26:47.166Z] 
+[debug] [2020-09-17T07:26:47.176Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-17T07:26:47.176Z] > authorizing via signed-in user
+[debug] [2020-09-17T07:26:47.177Z] [iam] checking project tinder-clone-1bf69 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-09-17T07:26:47.183Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/tinder-clone-1bf69:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-09-17T07:26:48.516Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 17 Sep 2020 07:26:48 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1154","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-09-17T07:26:48.519Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/tinder-clone-1bf69  
+ 
+[debug] [2020-09-17T07:26:48.932Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 17 Sep 2020 07:26:49 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'tinder-clone-1bf69'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-09-17T07:26:48.946Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/tinder-clone-1bf69/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2020-09-17T07:27:10.138Z] Error: connect ETIMEDOUT 216.58.200.138:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 216.58.200.138:443
