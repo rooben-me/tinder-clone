@@ -1,4 +1,4 @@
-# Tinder Clone
+# TINDER CLONE
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
@@ -7,9 +7,9 @@ Tinder clone is a Simplified clone version of the Tinder app powered by React JS
 - made with love
 - and ofcourse some Magic ✔
 
-# IT IS NOT OPTIMIZED FOR DESKTOP VIEW
+### IT IS NOT OPTIMIZED FOR DESKTOP VIEW😓😓
 
-# WORKS NICELY WITH MOBILE AND TABLET VIEW
+### WORKS NICELY WITH MOBILE AND TABLET VIEW
 
 ### Tech
 
