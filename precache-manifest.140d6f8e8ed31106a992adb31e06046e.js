@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "176883dce4ada76509fd2136af6f537e",
+    "revision": "f2e18566bbafe7522c08eaccf6984881",
     "url": "/tinder-clone/index.html"
   },
   {
